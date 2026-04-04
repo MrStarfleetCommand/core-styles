@@ -71,3 +71,6 @@ a:where(:not([role="button"])):visited:hover{
 a:visited:active{
 	color: var(--color-visited--active);
 }
+[type="submit"]{
+	cursor: pointer;
+}
